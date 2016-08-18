@@ -36352,10 +36352,12 @@ module.exports = angular;
 var angular = require('angular');
 var uiRouter = require('angular-ui-router');
 
-angular.module('app', ['ui.router'])
-.run(function(){
-    console.log('hola')
-})
 
-console.log('hola')
+angular.module('app', ['ui.router'])
+.config(['$stateProvider', function(){
+    
+}])
+.run(function(){
+    console.log('running')
+})
 },{"angular":3,"angular-ui-router":1}]},{},[4]);
