@@ -1,0 +1,26 @@
+{
+  "name": "angular-browserify-template",
+  "version": "1.0.0",
+  "description": "A template for starting with angularjs and browserify",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify src/app.js -t brfs -o public/js/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angularjs",
+    "browserify",
+    "template"
+  ],
+  "author": "Juan Camilo Guarin P",
+  "license": "ISC",
+  "devDependencies": {
+    "brfs": "^1.4.3",
+    "browserify": "^13.1.0",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1"
+  }
+}
